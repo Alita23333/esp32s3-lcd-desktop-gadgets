@@ -1,0 +1,19 @@
+# Build / toolchain artifacts
+.pio/
+.venv/
+*.log
+
+# Downloaded vendor demo (large, third-party)
+demo.zip
+
+# Tooling / editor
+.zcode/
+.mimosa/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
