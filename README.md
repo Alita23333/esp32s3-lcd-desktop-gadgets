@@ -46,6 +46,10 @@ python esptool.py --chip esp32s3 --port COM5 --baud 460800 write_flash 0x0 xxx-f
 
 焊了键当然好，没焊就镊子短接引脚↔GND 也能当按键。
 
+## 下载固件
+
+不想自己编译的话，去 [Releases](https://github.com/Alita23333/esp32s3-lcd-desktop-gadgets/releases) 拿现成的。每个固件打进了一个 zip（`.bin` + 刷机脚本 + 说明），右键下载解压就能用。
+
 ## 项目结构
 
 - `src/` 固件源码（每个应用一个 .cpp/.hpp，`platformio.ini` 里 `build_src_filter` 控制编译哪个）
